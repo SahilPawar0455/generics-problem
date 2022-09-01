@@ -67,7 +67,11 @@ public class MaximumNumber {
     }
 
     public static <T> void maxParameter(T ... a) {
-        Arrays.sort(a);
-        System.out.println("Max number is "+a[a.length-1]);
+      Arrays.sort(a);
+      T max = a[a.length-1];
+      printMax(max);
+    }
+    public static<E> void printMax(E a){
+        System.out.println("Max number is "+a);
     }
 }
