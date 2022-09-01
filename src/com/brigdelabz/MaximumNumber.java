@@ -35,4 +35,22 @@ public class MaximumNumber {
             }
         }
     }
+
+    public static void stringsMax(String x, String y, String z) {
+        if (x.length() > y.length()) {
+            if (x.length() > z.length()) {
+                System.out.println("Maximum String is = " + x);
+            }
+        }
+        if (y.length() > x.length()) {
+            if (y.length() > z.length()) {
+                System.out.println("Maximum String is = " + y);
+            }
+        }
+        if (z.length() > x.length()) {
+            if (z.length() > y.length()) {
+                System.out.println("Maximum String is = " + z);
+            }
+        }
+    }
 }
