@@ -9,5 +9,6 @@ public class MaximumNumberMain {
         MaximumNumber.genericMax(56,89,56);
         MaximumNumber.genericMax(45.268F,63.89F,89.25F);
         MaximumNumber.genericMax("sahilpawar","pawar","ssdaddsf");
+        MaximumNumber.maxParameter(56, 89, 56,45,63,89);
     }
 }

@@ -1,5 +1,7 @@
 package com.brigdelabz;
 
+import java.util.Arrays;
+
 public class MaximumNumber {
     public static void integerMax(int x, int y, int z) {
         if (x > y) {
@@ -62,5 +64,10 @@ public class MaximumNumber {
             max = z;
         }
         System.out.println("Maximum Number is = "+max);
+    }
+
+    public static <T> void maxParameter(T ... a) {
+        Arrays.sort(a);
+        System.out.println("Max number is "+a[a.length-1]);
     }
 }
