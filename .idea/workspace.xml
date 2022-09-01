@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1edc2daa-7e2e-4845-8e88-5f1ecf3664af" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/generics-problem/com/brigdelabz/MaximumNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generics-problem/com/brigdelabz/MaximumNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/generics-problem/com/brigdelabz/MaximumNumberMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generics-problem/com/brigdelabz/MaximumNumberMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/brigdelabz/MaximumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigdelabz/MaximumNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/brigdelabz/MaximumNumberMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigdelabz/MaximumNumberMain.java" afterDir="false" />
     </list>
@@ -37,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MaximumNumberMain">
     <configuration name="MaximumNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.brigdelabz.MaximumNumber" />
       <module name="generics-problem" />
@@ -51,8 +52,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaximumNumberMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.brigdelabz.MaximumNumberMain" />
+      <module name="generics-problem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brigdelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumNumberMain" />
         <item itemvalue="Application.MaximumNumber" />
       </list>
     </recent_temporary>
