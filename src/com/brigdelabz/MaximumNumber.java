@@ -1,7 +1,21 @@
 package com.brigdelabz;
 
 public class MaximumNumber {
-    public static void main(String[] args) {
-        System.out.println("Welcome to Maximum Number");
+    public static void integerMax(int x, int y, int z) {
+        if (x > y) {
+            if (x > z) {
+                System.out.println("Maximum Integers is = " + x);
+            }
+        }
+        if (y > x) {
+            if (y > z) {
+                System.out.println("Maximum Integers is = " + y);
+            }
+        }
+        if (z > x) {
+            if (z > y) {
+                System.out.println("Maximum Integers is = " + z);
+            }
+        }
     }
 }
