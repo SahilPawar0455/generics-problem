@@ -6,5 +6,8 @@ public class MaximumNumberMain {
         MaximumNumber.integerMax(56, 89, 56);
         MaximumNumber.floatsMax(45.268F,63.89F,89.25F);
         MaximumNumber.stringsMax("sahilpawar","pawar","ssdaddsf");
+        MaximumNumber.genericMax(56,89,56);
+        MaximumNumber.genericMax(45.268F,63.89F,89.25F);
+        MaximumNumber.genericMax("sahilpawar","pawar","ssdaddsf");
     }
 }

@@ -53,4 +53,14 @@ public class MaximumNumber {
             }
         }
     }
+
+    public static <T extends Comparable> void genericMax(T x,T y,T z) {
+        T max = x;
+        if (y.compareTo(max)>0){
+            max = y;
+        } else if (z.compareTo(max)>0) {
+            max = z;
+        }
+        System.out.println("Maximum Number is = "+max);
+    }
 }
